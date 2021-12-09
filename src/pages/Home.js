@@ -21,7 +21,7 @@ function Home() {
                 type: 'polygon',
                 stroke: {
                   width: 6,
-                  color: '#f9ab00'
+                  color: 'rgba(200,65,10,10)'
                 }
               }
             }
