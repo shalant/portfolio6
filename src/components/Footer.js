@@ -2,14 +2,15 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import '../App.css';
+import './footer.css';
 
 function Footer() {
 
     return(
         <footer className='foot mt-6'>
             <Container fluid={true} className='footer'>
-                <Row className='border-top justify-content-between p-3'>
+                {/* i removed the classname 'border-top' from row */}
+                <Row className='justify-content-between p-3'>
                     <Col className='p=0' md={3} sm={12}>
                         Doug Rosenberg
                     </Col>

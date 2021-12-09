@@ -1,0 +1,17 @@
+
+/* ------Footer -------- */
+
+.foot {
+    background: rgb(240,35,10);
+    background: linear-gradient(270deg, rgba(240,35,10,1) 0%, rgba(238,151,8,1) 95%, rgba(255,192,0,1) 100%);
+  }
+  
+  .footerIcons {
+    
+  }
+  
+  .footer {
+    align-items: center;
+    justify-content: center;
+  }
+  

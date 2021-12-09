@@ -12,86 +12,11 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.container {
+/* .container {
   width: 100vw !important;
   height: 100vh;
-}
+} */
 
-/************* NAV *****************/
-
-nav {
-  z-index: 2;
-  background-color: var(--primary-red);
-}
-
-nav a.nav-link {
-  font-size: 0.99rem;
-  letter-spacing: 0.0375rem;
-  cursor: pointer;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-nav ul li {
-  text-transform: case;
-  align-items: auto;
-}
-
-.navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  color: var(--primary-white) !important;
-  border-top: 0.1875 solid var(--primary-dark);
-}
-
-.navbar-brand {
-  max-width: 17.25rem;
-  padding: 10px !important;
-  height: 6rem !important;
-}
-
-@media(max-width: 768px) {
-  .navbar-brand {
-    width: 7rem;
-  }
-}
-
-.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
-  border-top: 0.1875 solid var(--primary-orange);
-}
-
-.navbar-nav > li > a:hover {
-  border-top: 0.1875 solid var(--primary-orange);
-}
-
-/**************header*****************/
-
-.header-wrapper {
-  position: relative;
-  background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-.main-info {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-  z-index: 1;
-}
-
-.main-info h1 {
-  color: black;
-  text-transform: uppercase;
-}
 
 /*typed text*/
 .typed-text {
@@ -201,21 +126,6 @@ nav ul li {
   text-align: center;
   top: 4%;
   width: 100%;
-}
-
-/* ------Footer -------- */
-
-.foot {
-  background-color: var(--primary-red);
-}
-
-.footerIcons {
-  
-}
-
-.footer {
-  align-items: center;
-  justify-content: center;
 }
 
 

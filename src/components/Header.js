@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
+import './header.css';
 
 const Header = () => {
     return (

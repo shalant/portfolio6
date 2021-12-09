@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../App.css';
-
+import './navbar.css'
 
 function NavbarD() {
     return (
-        <Navbar className='border-bottom nav' expand='lg' sticky='top'>
+        //i took out 'border-bottom' from the classname because it made a wee border
+        <Navbar className='nav' expand='lg' sticky='top'>
             <Navbar.Brand>Doug Rosenberg</Navbar.Brand>
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
                 <Navbar.Collapse className='nav' id='navbar-toggle'>
