@@ -244,9 +244,9 @@ nav ul li {
   size: 1.1em;
 }
 
-.fontawesome-icons {
-  padding-left: 10px;
-  margin-left: 10rem;
+.fontawesome-icons i {
+  padding-left: 1rem;
+  margin-left: 1rem;
   justify-content: space-between;
 }
 
@@ -257,11 +257,11 @@ nav ul li {
 }
 
 .headshot {
-  width: 15rem;
+  width: 20rem;
   transition: scale(1);
   transition: transform 0.5s ease;
-  border-radius: 11px;
-  box-shadow: 50;
+  border-radius: 150px;
+  box-shadow: 5px 5px #888888;
 }
 
 .headshot:hover {
