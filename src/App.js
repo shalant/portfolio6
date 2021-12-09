@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container'
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-router-dom';
-import Footer from './components/Footer';
+import FooterJsm from './components/FooterJsm';
 import Particles from 'react-particles-js';
 import NavbarD from './components/Navbar';
 import About from './pages/About';
@@ -31,7 +31,7 @@ function App() {
           <Route path='/cards' component={Cards} />
           <Route path='/links' component={Links} />
         </Switch>
-        <Footer />
+        <FooterJsm />
       </Container>
     </Router>
   );

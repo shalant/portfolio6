@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 .gpt3__footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: car(--color-footer);
+    background: rgb(240,35,10);
+    background: linear-gradient(270deg, rgba(240,35,10,1) 0%, rgba(238,151,8,1) 95%, rgba(255,192,0,1) 100%);
+    font-family: "Roboto Condensed", sans-serif;
+
 }
 
 .gpt3__footer-heading {
@@ -13,7 +18,7 @@
 }
 
 .gpt3__footer-heading h1 {
-    font-family: var(--font-family);
+    
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
@@ -35,7 +40,6 @@
 
 .gpt3__footer-btn p {
     box-sizing: border-box;
-    font-family: var(--font-family);
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
@@ -69,7 +73,6 @@
 }
 
 .gpt3__footer-links_logo p {
-    font-family: var(--font-family);
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
@@ -82,7 +85,6 @@
 }
 
 .gpt3__footer-links_div h4 {
-    font-family: var(--font-family);
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
@@ -90,7 +92,6 @@
 }
 
 .gpt3__footer-links_div p {
-    font-family: var(--font-family);
     font-size: 12px;
     line-height: 14px;
 
@@ -107,7 +108,6 @@
 }
 
 .gpt3__footer-copyright p {
-    font-family: var(--font-family);
     font-size: 12px;
     line-height: 14px;
     font-feature-settings: 'liga' off;
