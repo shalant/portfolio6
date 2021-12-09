@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import './about.css';
 import { SiMysql, SiRedux, SiMongodb, SiJest, SiMicrosoftword, SiMicrosoftexcel, SiMaterialui } from 'react-icons/si';
 import { IconContext } from "react-icons";
 import headshot from '../assets/images/headshot.jpg';
@@ -20,15 +20,17 @@ function About() {
                 <i class="fab fa-bootstrap fa-4x"></i>
                 <i class="fas fa-passport fa-4x"></i>
             </div>
-            <IconContext.Provider value={{ size: '50px', margin: '20px 20px 5px' }}>
-                <SiRedux />
-                <SiMysql />
-                <SiMongodb />
-                <SiJest />
-                <SiMicrosoftword />
-                <SiMicrosoftexcel />
-                <SiMaterialui />
-            </IconContext.Provider>
+            <div>
+                <IconContext.Provider value={{ size: '60px', margin: '50px 20px 5px', padding: '10px' }}>
+                    <SiRedux className='react-icons' />
+                    <SiMysql className='react-icons' />
+                    <SiMongodb className='react-icons' />
+                    <SiJest className='react-icons' />
+                    <SiMicrosoftword className='react-icons' />
+                    <SiMicrosoftexcel className='react-icons' />
+                    <SiMaterialui className='react-icons' />
+                </IconContext.Provider>
+            </div>
         </div>
     )
 }

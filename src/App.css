@@ -218,55 +218,6 @@ nav ul li {
   justify-content: center;
 }
 
-/* ------About------ */
-
-.about {
-  background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding: 1em;
-  justify-content: space-between;
-  overflow:visible;
-}
-
-.about-text {
-  font-size: 20px;
-  width: 80%;
-  text-align: center;
-  padding-top: 1em;
-  border-radius: 20px;
-  box-shadow: 5px 5px #888888;
-  background-blend-mode: soft-light;
-}
-
-.about-text:hover {
-  size: 1.1em;
-}
-
-.fontawesome-icons i {
-  padding-left: 1rem;
-  margin-left: 1rem;
-  justify-content: space-between;
-}
-
-.react-icons {
-  padding-top: 3rem;
-  padding-left: 10px;
-  margin-left: 10px;
-}
-
-.headshot {
-  width: 20rem;
-  transition: scale(1);
-  transition: transform 0.5s ease;
-  border-radius: 150px;
-  box-shadow: 5px 5px #888888;
-}
-
-.headshot:hover {
-  transition: scale(1.1);
-}
 
 
 /* ------Resume------ */

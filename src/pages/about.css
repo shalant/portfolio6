@@ -1,0 +1,58 @@
+/* ------About------ */
+
+.about {
+    background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1em;
+    justify-content: space-between;
+    overflow:visible;
+}
+
+.about p:hover {
+    color: red;
+}
+
+.about-text {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1em;
+    border-radius: 20px;
+    box-shadow: 5px 5px #888888;
+    background-blend-mode: soft-light;
+  }
+  
+  .about-text:hover p:hover {
+    color: red;
+  }
+  
+  .fontawesome-icons i {
+    padding-left: 1rem;
+    margin-left: 1rem;
+    justify-content: space-between;
+  }
+  
+  .react-icons {
+    margin: 2rem 1rem 1rem 1rem;
+  }
+  
+  .headshot {
+    width: 20rem;
+    transition: scale(1);
+    transition: transform 0.5s ease;
+    border-radius: 150px;
+    box-shadow: 5px 5px #888888;
+    align-items: center;
+  }
+  
+  .headshot:hover {
+    transition: scale(1.1);
+  }
+  
+@media screen and (max-width: 600px) {
+    .fontawesome-icons {
+        
+    }
+}
