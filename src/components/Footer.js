@@ -14,7 +14,6 @@ function Footer() {
                         Doug Rosenberg
                     </Col>
                     <Col>
-                        asdfasd
                         <a href='https://www.github.com/shalant'><i className="fab fa-github-square fa-3x"></i></a>
                     </Col>
                     <Col>

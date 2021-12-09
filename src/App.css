@@ -235,7 +235,6 @@ nav ul li {
   width: 80%;
   text-align: center;
   padding-top: 1em;
-  margin: auto;
   border-radius: 20px;
   box-shadow: 5px 5px #888888;
   background-blend-mode: soft-light;
@@ -246,9 +245,8 @@ nav ul li {
 }
 
 .fontawesome-icons {
-  padding-top: 3rem;
   padding-left: 10px;
-  margin-left: 10px;
+  margin-left: 10rem;
   justify-content: space-between;
 }
 
