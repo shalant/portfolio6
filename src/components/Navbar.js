@@ -9,7 +9,9 @@ function NavbarD() {
     return (
         //i took out 'border-bottom' from the classname because it made a wee border
         <Navbar className='nav' expand='lg' sticky='top'>
-            <Navbar.Brand>Doug Rosenberg</Navbar.Brand>
+            <Navbar.Brand className='brand'>
+                <p>DougRosenbergDev.com</p>
+            </Navbar.Brand>
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
                 <Navbar.Collapse className='nav' id='navbar-toggle'>
                     <Nav className='mr-auto'>

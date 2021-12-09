@@ -11,45 +11,45 @@
 }
 
 .about p:hover {
-    color: red;
+    color: rgb(68, 66, 66);
 }
 
 .about-text {
-    font-size: 20px;
+    background-image: linear-gradient(60deg, #636063, #262624);
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
     font-weight: 600;
     text-align: center;
-    padding-top: 1em;
-    border-radius: 20px;
-    box-shadow: 5px 5px #888888;
-    background-blend-mode: soft-light;
+    padding: 1em 0 1em 0;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
+
   
-  .about-text:hover p:hover {
-    color: red;
-  }
-  
-  .fontawesome-icons i {
+.fontawesome-icons i {
     padding-left: 1rem;
     margin-left: 1rem;
     justify-content: space-between;
-  }
+}
   
-  .react-icons {
+.react-icons {
     margin: 2rem 1rem 1rem 1rem;
-  }
+}
   
-  .headshot {
+.headshot {
     width: 20rem;
     transition: scale(1);
     transition: transform 0.5s ease;
     border-radius: 150px;
-    box-shadow: 5px 5px #888888;
+    /* box-shadow: 5px 5px #888888; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     align-items: center;
-  }
+}
   
-  .headshot:hover {
+.headshot:hover {
     transition: scale(1.1);
-  }
+}
   
 @media screen and (max-width: 600px) {
     .fontawesome-icons {

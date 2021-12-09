@@ -5,7 +5,7 @@ nav {
     z-index: 2;
     /* background-color: var(--primary-red); */
     background: rgb(240,35,10);
-background: linear-gradient(45deg, rgba(240,35,10,1) 0%, rgba(238,151,8,1) 95%, rgba(255,192,0,1) 100%);
+    background: linear-gradient(45deg, rgba(240,35,10,1) 0%, rgba(238,151,8,1) 95%, rgba(255,192,0,1) 100%);
 }
   
   nav a.nav-link {
@@ -13,11 +13,20 @@ background: linear-gradient(45deg, rgba(240,35,10,1) 0%, rgba(238,151,8,1) 95%, 
     letter-spacing: 0.0375rem;
     cursor: pointer;
     font-family: "Roboto Condensed", sans-serif;
+    background-image: linear-gradient(60deg, #636063, #262624);
+    background-clip: text;
+    color: transparent;
+  }
+
+  nav a.nav-link:hover {
+    font-weight: 900;
+    color: grey;
   }
   
   nav ul li {
     text-transform: case;
     align-items: auto;
+    
   }
   
   .navbar-nav > li > a {
@@ -47,3 +56,13 @@ background: linear-gradient(45deg, rgba(240,35,10,1) 0%, rgba(238,151,8,1) 95%, 
     border-top: 0.1875 solid var(--primary-orange);
   }
   
+.brand {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.brand p {
+  background-image: linear-gradient(60deg, #636063, #262624);
+  background-clip: text;
+  color: transparent;
+  margin-top: 20px;
+}

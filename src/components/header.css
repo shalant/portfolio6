@@ -2,8 +2,7 @@
 
 /**************header*****************/
 
-.header-wrapper {
-    position: relative;
+.header-wrapper {  position: relative;
     background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,22 +10,27 @@
     border: none;
   }
   
-  .main-info {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: "Roboto Condensed", sans-serif;
-    z-index: 1;
-  }
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
+  font-weight: 800;
+}
   
-  .main-info h1 {
-    color: black;
-    text-transform: uppercase;
-  }
+.main-info h1 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-image: linear-gradient(60deg, #636063, #262624);
+  background-clip: text;
+  color: transparent;
+ }

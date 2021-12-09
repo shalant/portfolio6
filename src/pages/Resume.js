@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import './resume.css';
 import resume from '../assets/images/DouglasRosenbergResume.png'
 
 function Resume() {
