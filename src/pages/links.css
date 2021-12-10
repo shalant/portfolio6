@@ -1,0 +1,9 @@
+.links {
+    background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1em;
+    justify-content: space-between;
+    overflow:visible;
+}

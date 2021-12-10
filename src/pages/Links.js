@@ -1,17 +1,21 @@
-import React from 'react'
+import React from 'react';
+import './links.css';
 
-const Links = () => {
+function Links () {
     return (
-        <div>
+        <div className='links'>
             <div class="container px-4">
                 <div class="row gx-5">
                     <div class="col">
                     <div class="p-3 border bg-light">
-                        <a href="https://www.dougrosenberg.com" target="_blank">Music page</a>
+                        <a href="https://dougrosenberg.com" target="_blank">Music page</a>
                     </div>
                     </div>
                     <div class="col">
-                    <div class="p-3 border bg-light">Custom column padding</div>
+                    <div class="p-3 border bg-light">
+                    <a href="https://gpt3.dougrosenbergdev.com" target="_blank">GPT3 Project</a>
+
+                    </div>
                     </div>
                 </div>
             </div>
