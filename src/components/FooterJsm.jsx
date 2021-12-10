@@ -1,5 +1,6 @@
 import React from 'react';
 import './FooterJsm.css';
+import headshot from '../assets/images/headshot.jpg'
 
 const Footer = () => {
     return (
@@ -10,31 +11,30 @@ const Footer = () => {
             
             <div className="gpt3__footer-links">
                 <div className="gpt3__footer-links_logo">
-                    <img  alt="logo" />
-                    <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
+                    <img src={headshot} alt="headshot" className='headshot' />
                 </div>
                 <div className="gpt3__footer-links_div">
                     <h4>Links</h4>
-                    <p>Overons</p>
-                    <p>Social Media</p>
-                    <p>Counters</p>
-                    <p>Contacts</p>
+                    <p>Doug Rosenberg Music</p>
+                    <p>Dynamic Wine</p>
+                    <p>Github</p>
+                    <p>LinkedIn</p>
                 </div>
                 <div className="gpt3__footer-links_div">
                     <h4>Company</h4>
                     <p>Terms and Conditions</p>
                     <p>Privacy Policy</p>
-                    <p>Contact</p>
+                    <a href='mailto:doug.rosenberg@gmail.com'><p>Contact</p></a>
                 </div>
                 <div className="gpt3__footer-links_div">
                     <h4>Get in Touch</h4>
-                    <p>Crechterwoord K12 182 DK Alknjkcb</p>
-                    <p>085-132567</p>
-                    <p>info@payme.net</p>
+                    <p>Doug Rosenberg Dev</p>
+                    <p>773-627-4279</p>
+                    <a href='mailto:doug.rosenberg@gmail.com'><p>doug.rosenberg@gmail.com</p></a>
                 </div>
             </div>
             <div className="gpt3__footer-copyright">
-                <p>© 2021 GPT-3. All rights reserved.</p>
+                <p>© 2021 DougRosenbergDev. All rights reserved.</p>
             </div>
         </div>
     )

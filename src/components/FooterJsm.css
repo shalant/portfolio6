@@ -8,20 +8,18 @@
     background: rgb(240,35,10);
     background: linear-gradient(270deg, rgba(240,35,10,1) 0%, rgba(238,151,8,1) 95%, rgba(255,192,0,1) 100%);
     font-family: "Roboto Condensed", sans-serif;
-
 }
 
 .gpt3__footer-heading {
     width: 100%;
     text-align: center;
-    margin-bottom: 3rem;
+    margin: 1rem 0 1rem;
 }
 
 .gpt3__footer-heading h1 {
-    
-    font-weight: 800;
-    font-size: 62px;
-    line-height: 75px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 45px;
     text-align: center;
     letter-spacing: -0.04em;
 }
@@ -34,7 +32,7 @@
     padding: 1rem;
     border: 1px solid #fff;
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 0.5rem;
     cursor: pointer;
 }
 
@@ -58,7 +56,7 @@
 
 .gpt3__footer-links div {
     width: 250px;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .gpt3__footer-links_logo {
@@ -68,8 +66,8 @@
 
 .gpt3__footer-links_logo img {
     width: 118px;
-    height: 30px;
-    margin-bottom: 1rem;
+    height: 10rem;
+    margin-bottom: 0.5rem;
 }
 
 .gpt3__footer-links_logo p {
@@ -88,7 +86,7 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .gpt3__footer-links_div p {
@@ -101,10 +99,9 @@
 }
 
 .gpt3__footer-copyright {
-    margin-top: 2rem;
+    margin-top: 0.1rem;
     text-align: center;
     width: 100%;
-
 }
 
 .gpt3__footer-copyright p {
@@ -143,4 +140,8 @@
         font-size: 34px;
         line-height: 42px;
     }
+}
+
+.headshot {
+    width: 50px;
 }

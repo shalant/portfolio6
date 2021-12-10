@@ -21,7 +21,14 @@ nav {
   nav a.nav-link:hover {
     font-weight: 900;
     color: grey;
+    transition: 0.25s ease-in-out;
+
   }
+
+nav a.nav-link:active {
+    font-weight: 900;
+    color: red;
+}
   
   nav ul li {
     text-transform: case;
@@ -44,7 +51,11 @@ nav {
   
   @media(max-width: 768px) {
     .navbar-brand {
-      width: 7rem;
+      width: 10rem;
+    }
+
+    .brand {
+      width: 50rem;
     }
   }
   

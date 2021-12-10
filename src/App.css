@@ -34,21 +34,6 @@ body {
   }
 }
 
-.btn-main-offer {
-  border: 1px solid var(--primary-red);
-  text-transform: uppercase;
-  border-radius: 0;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
-  margin: 2rem;
-}
-
-.btn-main-offer:hover {
-  text-decoration: none;
-  background-color: var(--primary-hover-red);
-  color: var(--primary-white);
-  transition: 0.15s ease-in-out;
-}
 
 .tsparticles-canvas-el {
   position: absolute;

@@ -2,39 +2,53 @@
 
 /**************header*****************/
 
-.header-wrapper {  position: relative;
+.header-wrapper {  
+    position: relative;
     background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
     border: none;
-  }
+}
   
 .main-info {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-  z-index: 1;
-  font-weight: 800;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    z-index: 1;
+    font-weight: 800;
 }
   
 .main-info h1 {
-  color: black;
   text-transform: uppercase;
   font-weight: 900;
-  background-image: linear-gradient(60deg, #636063, #262624);
+  background-image: linear-gradient(60deg, #636063, #262624) !important;
   background-clip: text;
-  color: transparent;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .btn-main-offer {
-  
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: linear-gradient(60deg, #636063, #262624);
+  transition: 0.25s ease-in-out;
 }
