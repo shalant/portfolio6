@@ -112,6 +112,12 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
+.gpt3__footer-links_div a {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
 .gpt3__footer-links_div i {
     margin: 0 0 .5rem;
 }
