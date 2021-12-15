@@ -64,7 +64,7 @@ class ContactPage extends React.Component {
         return(
             <div className='contactGlove__container'>
                 <Content>
-                    <Form onSubmit={this.handleSubmit}>
+                    <Form onSubmit={this.handleSubmit} className='contactGlove__container-form'>
                         <Form.Group>
                             <Form.Label htmlFor="full-name">Full Name</Form.Label>
                             <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
