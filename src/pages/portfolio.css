@@ -1,3 +1,20 @@
-.portfolio__header {
-    
+.portfolio__container {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.portfolio__container-header {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 0 4rem 0;
+    padding: 4rem 0 0 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+portfolio__container-carousel {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
