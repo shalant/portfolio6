@@ -1,14 +1,37 @@
 /* ------Resume------ */
 
-.resume {
+.resume__container {
     position: relative;
     background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: auto;
 }
 
-.resume img {
-    margin: 0rem 0 0 0;
+.resume__container a {
+    text-transform: uppercase;  
+    font-size: 4rem;
+    margin: 10rem 0 1rem 4rem;
+    padding: 10rem 0 1rem 0;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    background-image: linear-gradient(60deg, #636063, #262624) !important;
+    background-clip: text;
+    color: transparent;
+}
 
+.resume-div {
+    padding: 0 0 0.4rem 0;
+    width: 80%;
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resume-img {
+    margin: 4rem 0 4rem 4rem;
+    display: block;
+    margin: auto auto 4rem auto;
+    width: 50%;
+    height: 30%;
 }

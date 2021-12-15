@@ -1,13 +1,11 @@
 import React from 'react';
-
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
 import Content from '../components/Content';
 import Axios from 'axios';
+import './contactGlove.css';
 
 class ContactPage extends React.Component {
-
     constructor(props) {
         super(props);
         this.state = {
@@ -19,7 +17,6 @@ class ContactPage extends React.Component {
         }
     }
 
-
     handleChange = (event) => {
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -29,7 +26,6 @@ class ContactPage extends React.Component {
             [name]: value
         })
     }
-
 
     handleSubmit = (event) => {
         event.preventDefault();
@@ -62,13 +58,11 @@ class ContactPage extends React.Component {
                     emailSent: false
                 });
             })
-
     }
-
 
     render() {
         return(
-            <div>
+            <div className='contactGlove__container'>
                 <Content>
                     <Form onSubmit={this.handleSubmit}>
                         <Form.Group>
@@ -76,23 +70,19 @@ class ContactPage extends React.Component {
                             <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
                         </Form.Group>
 
-
                         <Form.Group>
                             <Form.Label htmlFor="email">Email</Form.Label>
                             <Form.Control id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange} />
                         </Form.Group>
-
 
                         <Form.Group>
                             <Form.Label htmlFor="message">Message</Form.Label>
                             <Form.Control id="message" name="message" as="textarea"rows="3" value={this.state.message} onChange={this.handleChange} />
                         </Form.Group>
 
-
                         <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
                             Send
                         </Button>
-
 
                         {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
                         {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
@@ -101,7 +91,6 @@ class ContactPage extends React.Component {
             </div>
         );
     }
-
 }
 
 export default ContactPage;

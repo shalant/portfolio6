@@ -8,7 +8,6 @@ import NavbarD from './components/Navbar';
 import About from './pages/About';
 import Home from './pages/Home';
 import Resume from './pages/Resume';
-import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Links from './pages/Links';
 import Cards from './components/Cards';
