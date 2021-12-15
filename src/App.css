@@ -8,6 +8,10 @@
   --primary-hover-red: #f33501;
 }
 
+* {
+  font: "Roboto Condensed", sans-serif;
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
 }

@@ -14,6 +14,13 @@
     color: rgb(68, 66, 66);
 }
 
+.about__header h1 {
+    background-image: linear-gradient(60deg, #636063, #262624);
+    background-clip: text;
+    color: transparent;
+
+}
+
 .about-text {
     background-image: linear-gradient(60deg, #636063, #262624);
     background-clip: text;

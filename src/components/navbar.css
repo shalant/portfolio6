@@ -23,8 +23,9 @@ nav a.nav-link:hover {
     transition: 0.25s ease-in-out;
 }
 
-.nav-link:active {
+nav-link:active a {
   font-weight: 900;
+  text-underline-position:above;
 }
 
 nav a.nav-link:active {
