@@ -21,7 +21,6 @@ body {
   height: 100vh;
 } */
 
-
 /*typed text*/
 .typed-text {
   font-size: 2rem;
@@ -34,7 +33,6 @@ body {
   }
   .typed-text {
     font-size: 1.3rem !important;
-
   }
 }
 
@@ -105,7 +103,6 @@ body {
 .wrapper {
   position: relative;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
 }
 
 .text{
@@ -116,3 +113,4 @@ body {
   top: 4%;
   width: 100%;
 }
+
