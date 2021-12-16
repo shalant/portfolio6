@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <div className="gpt3__footer-links_div">
                     <h4>Links</h4>
-                    <a href='https://shalant.github.io/music-site-2/'>Doug Rosenberg Music</a>
+                    <a href='https://www.dougrosenberg.com/'>Doug Rosenberg Music</a>
                     <a href='https://dynamic-wines.herokuapp.com/'>Dynamic Wine</a>
                     <i class="fab fa-github fa-1x"><a href='https://www.github.com/shalant'>Github</a></i>
                     <i class="fab fa-linkedin fa-1x"><a href='https://www.linkedin.com/in/douglasrosenberg/'>LinkedIn</a></i>

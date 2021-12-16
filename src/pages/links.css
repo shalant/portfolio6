@@ -3,19 +3,21 @@
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding: 1em;
+    padding: 2rem 0 8rem 0;
     justify-content: space-between;
     overflow:visible;
 }
 
 .links__link {
     font-family: "Roboto Condensed", sans-serif;
-
+    margin: 1rem 0 1rem 0;
     /* p-3 border bg-light */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset !important;
 }
 
 .links__link:hover {
-    /* WHY DOESNT THIS WORK? */
-    background-color: red !important;
+    background-color: orangered !important;
+    text-decoration: none;
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out ;
 }
