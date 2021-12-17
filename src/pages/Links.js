@@ -16,6 +16,12 @@ function Links () {
                         <div class="links__link p-3 border bg-light">
                             <a href="https://e-commerce-1.dougrosenbergdev.com">Simple React E-Commerce Project</a>
                         </div>
+                        <div class="links__link p-3 border bg-light">
+                            <a href="https://blog-app.dougrosenbergdev.com">Simple React Blog App</a>
+                        </div>
+                        <div class="links__link p-3 border bg-light">
+                            <a href="https://e-commerce-1.dougrosenbergdev.com">Simple React E-Commerce Project</a>
+                        </div>
                     </div>
                     <div class="col">
                         <div class="links__link p-3 border bg-light">
@@ -23,6 +29,12 @@ function Links () {
                         </div>
                         <div class="links__link p-3 border bg-light">
                             <a href="https://real-estate-app.dougrosenbergdev.com">React Real Estate App</a>
+                        </div>
+                        <div class="links__link p-3 border bg-light">
+                            <a href="https://react-slider.dougrosenbergdev.com">Simple React Slider</a>
+                        </div>
+                        <div class="links__link p-3 border bg-light">
+                            <a href="https://react-slider.dougrosenbergdev.com">Simple React Slider</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
                             <a href="https://react-slider.dougrosenbergdev.com">Simple React Slider</a>
