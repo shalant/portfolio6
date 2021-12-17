@@ -11,10 +11,10 @@ function Links () {
                             <a href="https://dougrosenberg.com">Music page</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
-                            <a href="https://dougrosenberg.com">Something Cool</a>
+                            <a href="https://ecommercepizza.dougrosenbergdev.com">React E-Commerce Project</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
-                            <a href="https://dougrosenberg.com">Something Cool</a>
+                            <a href="https://e-commerce-1.dougrosenbergdev.com">Simple React E-Commerce Project</a>
                         </div>
                     </div>
                     <div class="col">
@@ -22,10 +22,10 @@ function Links () {
                             <a href="https://gpt3.dougrosenbergdev.com">GPT3 Project</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
-                            <a href="https://gpt3.dougrosenbergdev.com">Something Cool</a>
+                            <a href="https://real-estate-app.dougrosenbergdev.com">React Real Estate App</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
-                            <a href="https://gpt3.dougrosenbergdev.com">Something Cool</a>
+                            <a href="https://react-slider.dougrosenbergdev.com">Simple React Slider</a>
                         </div>
                     </div>
                 </div>

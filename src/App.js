@@ -13,32 +13,13 @@ import Links from './pages/Links';
 import Cards from './components/Cards';
 import { Navbar, Nav } from 'react-bootstrap';
 import ContactGlove from './pages/ContactGlove';
-import ReactWeather, { useOpenWeather } from 'react-open-weather';
-
 
 function App() {
-  const { data, isLoading, errorMessage } = useOpenWeather({
-    key: 'YOUR-API-KEY',
-    lat: '48.137154',
-    lon: '11.576124',
-    lang: 'en',
-    unit: 'metric', // values are (metric, standard, imperial)
-  });
+  
   return (
     <Router>
       <Container fluid>
         <NavbarD />
-        <ReactWeather 
-          isLoading={isLoading}
-          errorMessage={errorMessage}
-          data={data}
-          lang="en"
-          locationLabel="Munich"
-          unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
-          showForecast
-          theme={customStyles}
-
-        />
 
         <Switch>
           <Route exact path='/' component={Home} />

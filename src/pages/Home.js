@@ -1,8 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
 import Particles from 'react-particles-js';
-import ReactWeather from 'react-open-weather';
-// import 'react-open-weather/lib/css/ReactWeather.css';
 import './home.css';
 
 function Home() {
@@ -30,7 +28,6 @@ function Home() {
             }}
           />
           <Header />
-          <ReactWeather forecast="today" apikey="b04b2a052fb4b71af764d1f2a6d8f3ab" type="auto" />
         </div>
     )
 }
