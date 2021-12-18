@@ -10,10 +10,24 @@
 
 * {
   font: "Roboto Condensed", sans-serif;
+  
+}
+
+.html {
+  width: 100%;
+  background-size: contain;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Roboto Condensed", sans-serif;
+  width: 100%;
+  background-size: contain;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 /* .container {

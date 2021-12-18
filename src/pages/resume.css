@@ -1,37 +1,59 @@
 /* ------Resume------ */
 
 .resume__container {
-    position: relative;
+    position: flex;
     background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: auto;
+    margin: 0 0 0 0;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
 }
 
 .resume__container a {
+    background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
     text-transform: uppercase;  
     font-size: 4rem;
-    margin: 10rem 0 1rem 4rem;
-    padding: 10rem 0 1rem 0;
+   
     font-weight: 900;
     text-decoration: none;
     font-family: "Roboto Condensed", sans-serif;
-    background-image: linear-gradient(60deg, #636063, #262624) !important;
+    background-image: linear-gradient(60deg, #636063, #3a3a38) !important;
     background-clip: text;
     color: transparent;
+    /* border: 2px solid purple; */
+    text-align: center;
+}
+
+.resume-link {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    text-decoration: none;
+    
 }
 
 .resume-div {
-    padding: 0 0 0.4rem 0;
-    width: 80%;
-    background-color: grey;
+    display: flex;
+    padding: 3rem 0 3rem 0;
+    margin: auto;
+    width: 60%;
+    background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
+    background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+
 }
 
 .resume-img {
-    margin: 4rem 0 4rem 4rem;
-    display: block;
-    margin: auto auto 4rem auto;
+    display: flex;
     width: 50%;
     height: 30%;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+
 }
