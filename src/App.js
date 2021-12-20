@@ -31,7 +31,7 @@ function App() {
           <Route path='/cards' component={Cards} />
           <Route path='/links' component={Links} />
         </Switch>
-        <WeatherWidget />
+       
         <FooterJsm />
       </Container>
     </Router>

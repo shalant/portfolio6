@@ -62,3 +62,8 @@
   color: #3f3d3f;
   transition: 0.25s ease-in-out;
 }
+
+.ww {
+  position: relative;
+  float: left;
+}
