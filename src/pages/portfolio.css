@@ -3,6 +3,8 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    padding: 0 0 2rem 0;
+    /* border: 1px solid red; */
 }
 
 .portfolio__container-header {
@@ -10,11 +12,10 @@
     text-align: center;
     font-weight: bolder;
     margin: 0 0 4rem 0;
-    padding: 4rem 0 0 0;
+    padding: 2rem 0 0 0;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
 }
 
-portfolio__container-carousel {
+.portfolio__container-carousel {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }

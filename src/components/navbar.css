@@ -7,7 +7,24 @@ nav {
     background: rgb(240,35,10);
     background: linear-gradient(45deg, rgba(240,35,10,1) 0%, rgba(238,151,8,1) 95%, rgba(255,192,0,1) 100%);
 }
-  
+
+.brand {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.brand p {
+  background-image: linear-gradient(60deg, #636063, #262624);
+  background-clip: text;
+  color: transparent;
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 10px !important;
+  height: 6rem !important;
+}  
+
 nav a.nav-link {
     font-size: 0.99rem;
     letter-spacing: 0.0375rem;
@@ -23,20 +40,13 @@ nav a.nav-link:hover {
     transition: 0.25s ease-in-out;
 }
 
-nav-link:active a {
-  font-weight: 900;
-  text-underline-position:above;
-}
-
 nav a.nav-link:active {
     font-weight: 900;
-    color: red;
+    color: blue !important;
 }
   
 nav ul li {
-    text-transform: case;
     align-items: auto;
-    
 }
   
 .navbar-nav > li > a {
@@ -46,11 +56,7 @@ nav ul li {
     border-top: 0.1875 solid var(--primary-dark);
 }
   
-.navbar-brand {
-    max-width: 17.25rem;
-    padding: 10px !important;
-    height: 6rem !important;
-}
+
   
 @media(max-width: 768px) {
     .navbar-brand {
@@ -61,7 +67,10 @@ nav ul li {
       width: 50rem;
     }
 }
-  
+
+
+
+/*   
 .navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
     border-top: 0.1875 solid var(--primary-orange);
 }
@@ -69,14 +78,4 @@ nav ul li {
 .navbar-nav > li > a:hover {
     border-top: 0.1875 solid var(--primary-orange);
 }
-  
-.brand {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
-.brand p {
-  background-image: linear-gradient(60deg, #636063, #262624);
-  background-clip: text;
-  color: transparent;
-  margin-top: 20px;
-}
+   */
