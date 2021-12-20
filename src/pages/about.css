@@ -20,7 +20,7 @@
 }
 
 .about__header {
-    background-image: linear-gradient(60deg, #636063, #262624);
+    background-image: linear-gradient(60deg, #888488, #262624);
     background-clip: text;
     color: transparent;
     font-weight: bold;
@@ -79,5 +79,10 @@
         display: grid;
         grid-template-rows: 200px 200px 200px;
         overflow-x: scroll;
+    }
+
+    .icons-wrap {
+        display: grid;
+        grid-template-rows: 2rem 2rem 2rem;
     }
 }

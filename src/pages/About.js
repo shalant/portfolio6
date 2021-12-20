@@ -16,11 +16,11 @@ function About() {
                     <i class="fab fa-css3-alt fa-4x"></i>
                     <i class="fab fa-js-square fa-4x"></i>
                     <i class="fab fa-react fa-4x"></i>
-                    <i class="fab fa-node fa-4x"></i>
-                    <i class="fas fa-database fa-4x"></i>
-                    <i class="fab fa-npm fa-4x"></i>
-                    <i class="fab fa-bootstrap fa-4x"></i>
-                    <i class="fas fa-passport fa-4x"></i>
+                    <i class="fab fa-node fa-4x icons-wrap"></i>
+                    <i class="fas fa-database fa-4x icons-wrap"></i>
+                    <i class="fab fa-npm fa-4x" icons-wrap></i>
+                    <i class="fab fa-bootstrap fa-4x icons-wrap"></i>
+                    <i class="fas fa-passport fa-4x icons-wrap"></i>
                 </div>
                 <div className='react-icons'>
                     <IconContext.Provider value={{ size: '60px', margin: '50px 20px 5px', padding: '10px' }}>
