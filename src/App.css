@@ -10,7 +10,6 @@
 
 * {
   font: "Roboto Condensed", sans-serif;
-  
 }
 
 .html {
@@ -28,6 +27,10 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
 }
 
 /* .container {

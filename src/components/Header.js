@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Typed from 'react-typed';
 import './header.css';
 import WeatherWidget from './WeatherWidget/WeatherWidget';
 
 const Header = () => {
     return (
+        <>
         <div className='header-wrapper'>
             <div className='main-info'>
                 <h1 className='me'>Doug Rosenberg Dev</h1>
@@ -18,8 +19,10 @@ const Header = () => {
                 <a href='/contact' className='btn-main-offer'>Contact Me</a>
                 
             </div>
-            <WeatherWidget className='ww' />
+            
         </div>
+        {/* <WeatherWidget className='ww' /> */}
+        </>
     )
 }
 
