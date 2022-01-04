@@ -67,8 +67,9 @@ function WeatherWidget() {
                 {weather.weather[0].main}
               </div>
             </div>
-        </div>
-        ) : ('')}
+          </div>
+        ) : (
+          <div className='ww__initial'>'type in your location'</div>)}
       </main>
     </div>
   );

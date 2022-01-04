@@ -10,7 +10,7 @@ function Home() {
         <>
         <Row className='home'>
           
-          <Col xs={2}>
+          <Col xs={2} className='home__sidebar'>
             <WeatherWidget />
           </Col>
           <Col xs={10}>

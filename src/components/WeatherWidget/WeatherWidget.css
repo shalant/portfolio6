@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
     box-sizing: border-box;
   }
   
@@ -10,25 +10,32 @@
   
   .WW {
     background-image: url('./assets/cold-bg.jpg');
-    background-size: 60rem ;
+    background-size: 40rem ;
     background-position: bottom;
     transition: 0.4 ease;
+    border-radius: 10px;
   }
   
   .WW.warm {
     background-image: url('./assets/warm-bg.jpg');
+    background-size: 40rem ;
+
+  }
+
+  .ww__initial {
+    color: orangered;
   }
   
   main {
-    min-height: 10vh;
+    min-height: 5vh;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));
-    padding: 25px;
+    padding: 2rem;
     
   }
   
   .search-box {
     width: 100%;
-    margin: 0 0 75px;
+    margin: 10px 0 75px;
   }
   
   .search-box .search-bar {
@@ -42,7 +49,7 @@
     outline: none;
   
     background-color: rgba(255,255,255,0.5);
-    border-radius: 0px 0px 16px 16px;
+    border-radius: 10px;
     margin-top: -25px;
   
     box-shadow: 0px 5px rgba(0,0,0,0.2);
@@ -57,7 +64,7 @@
   
   .location-box .location {
     color: #fff;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
     text-align: center;
     text-shadow: 3px 3px rgba(50,50,50,0.5);
@@ -65,7 +72,7 @@
   
   .location-box .date {
     color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 300;
     font-style: italic;
     text-align: center;
@@ -79,14 +86,14 @@
   .weather-box .temp {
     position: relative;
     display: inline-block;
-    margin: 30px auto;
+    margin: 2rem auto;
     background-color: rgba(255,255,255, 0.2);
     border-radius: 16px;
   
-    padding: 15px 25px;
+    padding: 2rem 2rem;
   
     color: #FFF;
-    font-size: 102px;
+    font-size: 3rem;
     font-weight: 900;
   
     text-shadow: 3px 6px rgba(50,50,70,0.5);
