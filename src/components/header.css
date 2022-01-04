@@ -4,11 +4,12 @@
 
 .header-wrapper {  
     position: relative;
-    background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    /* background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
     height: 100vh;
-    border: none;
+    /* border: none; */
+    padding-top: 0 !important;
 }
   
 .main-info {
@@ -40,7 +41,7 @@
 }
 
 .main-info h1:hover {
-  text-shadow: 2px 2px rgb(238, 150, 12, 1);
+  text-shadow: 10px 10px rgb(238, 150, 12, 1);
   transition: 0.25s ease-in-out;
 
 }

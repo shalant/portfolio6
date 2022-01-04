@@ -33,6 +33,11 @@ body {
   padding: 4rem 6rem;
 }
 
+.app__container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 /* .container {
   width: 100vw !important;
   height: 100vh;
