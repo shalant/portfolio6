@@ -12,7 +12,6 @@ import Portfolio from './pages/Portfolio';
 import Links from './pages/Links';
 import Cards from './components/Cards';
 import { Navbar, Nav } from 'react-bootstrap';
-import WeatherWidget from './components/WeatherWidget/WeatherWidget'
 import ContactGlove from './pages/ContactGlove';
 
 function App() {

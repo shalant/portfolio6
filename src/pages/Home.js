@@ -1,13 +1,19 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import Header from '../components/Header';
 import Particles from 'react-particles-js';
 import './home.css';
+import WeatherWidget from '../components/WeatherWidget/WeatherWidget';
 
 function Home() {
     return (
-        <div>
+        <>
         <Row className='home'>
+          
+          <Col xs={2}>
+            <WeatherWidget />
+          </Col>
+          <Col xs={10}>
           <Particles 
                 className='particles-canvas'
                 params={{
@@ -29,15 +35,13 @@ function Home() {
                   }
                 }}
               />
-          <Col xs={2}>1 of 2</Col>
-          <Col xs={10}>
             <div className='home'>
               
               <Header />
             </div>
           </Col>
         </Row>
-        </div>
+        </>
     )
 }
 
