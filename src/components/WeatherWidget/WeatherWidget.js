@@ -69,7 +69,7 @@ function WeatherWidget() {
             </div>
           </div>
         ) : (
-          <div className='ww__initial'>'type in your location'</div>)}
+          <div className='ww__initial'>type in your location</div>)}
       </main>
     </div>
   );
