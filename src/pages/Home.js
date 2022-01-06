@@ -10,11 +10,11 @@ function Home() {
         <>
         <Row className='home'>
           
-          <Col xs={2} className='home__sidebar'>
+          <Col xs={3} m={2} lg={2} className='home__sidebar'>
             <WeatherWidget />
           </Col>
 
-          <Col xs={10}>
+          <Col xs={9} m={10} lg={10}>
             <Particles 
                   className='particles-canvas'
                   params={{

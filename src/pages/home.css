@@ -14,3 +14,7 @@
     padding: 0 0 0 0;
     overflow-wrap: normal;
 }
+
+@media only screen and (max-width: 768px) {
+
+}

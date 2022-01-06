@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './WeatherWidget.css';
+import './WeatherWidget2.css';
 
 const api = {
   key: "b04b2a052fb4b71af764d1f2a6d8f3ab",
@@ -69,7 +69,7 @@ function WeatherWidget() {
             </div>
           </div>
         ) : (
-          <div className='ww__initial'>type in your location</div>)}
+          <div className='ww__initial'>what is your weather?</div>)}
       </main>
     </div>
   );
