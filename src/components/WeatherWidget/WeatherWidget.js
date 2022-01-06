@@ -69,7 +69,7 @@ function WeatherWidget() {
             </div>
           </div>
         ) : (
-          <div className='ww__initial'>what is your weather?</div>)}
+          <p className='ww__initial'>how's the weather?</p>)}
       </main>
     </div>
   );

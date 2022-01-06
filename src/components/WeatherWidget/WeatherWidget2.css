@@ -12,7 +12,6 @@ body {
     background-position:center;
     transition: 0.4 ease;
     border-radius: 10px;
-    /* border: 2px solid blue; */
     margin-left: 0.5em;
 }
 
@@ -23,11 +22,10 @@ body {
 
 .ww__initial {
     color: orangered;
-    
     text-align: center;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    text-size-adjust:inherit;
+    
 }
 
 main {
@@ -86,6 +84,6 @@ main {
 
 @media only screen and (max-width: 768px) {
     * {
-        padding-top: 0;
+        /* padding-top: 0; */
     }
 }
