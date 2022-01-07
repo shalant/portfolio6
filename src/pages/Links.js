@@ -20,7 +20,7 @@ function Links () {
                             <a href="https://blog-app.dougrosenbergdev.com">Simple React Blog App</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
-                            <a href="https://e-commerce-1.dougrosenbergdev.com">Simple React E-Commerce Project</a>
+                            <a href="https://shalant.github.io/react-slider-brian/">Simple React Slider</a>
                         </div>
                     </div>
                     <div class="col">
@@ -34,7 +34,7 @@ function Links () {
                             <a href="https://react-slider.dougrosenbergdev.com">Simple React Slider</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
-                            <a href="https://react-slider.dougrosenbergdev.com">Simple React Slider</a>
+                            <a href="https://shalant.github.io/e_commerce/">Simple React E-commerce app</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
                             <a href="https://react-slider.dougrosenbergdev.com">Simple React Slider</a>
