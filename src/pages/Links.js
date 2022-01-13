@@ -37,7 +37,7 @@ function Links () {
                             <a href="https://shalant.github.io/e_commerce/">Simple React E-commerce app</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
-                            <a href="https://react-slider.dougrosenbergdev.com">Simple React Slider</a>
+                            <a href="https://shalant.github.io/react-tetris1/">Tetris made in React</a>
                         </div>
                     </div>
                 </div>
