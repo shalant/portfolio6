@@ -13,6 +13,7 @@ import Links from './pages/Links';
 import Cards from './components/Cards';
 import { Navbar, Nav } from 'react-bootstrap';
 import ContactGlove from './pages/ContactGlove';
+import { CardsRB } from './pages/CardsRB';
 
 function App() {
   
@@ -27,7 +28,7 @@ function App() {
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/resume' component={Resume} />
           <Route path='/contact' component={ContactGlove} />
-          <Route path='/cards' component={Cards} />
+          <Route path='/cards' component={CardsRB} />
           <Route path='/links' component={Links} />
         </Switch>
        
