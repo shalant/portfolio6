@@ -11,6 +11,12 @@ function Links () {
                             <a href="https://dougrosenberg.com">Music page</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
+                            <a href="https://project576342142.wordpress.com/">WordPress hosted on FANCY AWS hosting</a>
+                        </div>
+                        <div class="links__link p-3 border bg-light">
+                            <a href="https://github.com/shalant/AWS-resilient-fault-tolerant-wordpress/blob/main/README.md">AWS resilient, fault-tolerant, WordPress blog</a>
+                        </div>
+                        <div class="links__link p-3 border bg-light">
                             <a href="https://ecommercepizza.dougrosenbergdev.com">React E-Commerce Project</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
@@ -24,6 +30,12 @@ function Links () {
                         </div>
                     </div>
                     <div class="col">
+                        <div class="links__link p-3 border bg-light">
+                            <a href="https://master.d2rttn7n23ytmr.amplifyapp.com/">Lyman Ave Cul-De-Sac</a>
+                        </div>
+                        <div class="links__link p-3 border bg-light">
+                            <a href="https://master.d1ln2e7oqqzs4b.amplifyapp.com/">Networking Project</a>
+                        </div>
                         <div class="links__link p-3 border bg-light">
                             <a href="https://gpt3.dougrosenbergdev.com">GPT3 Project</a>
                         </div>
