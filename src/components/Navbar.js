@@ -19,7 +19,7 @@ function NavbarD() {
                         <Link className='nav-link' to='/portfolio'>Portfolio</Link>
                         <Link className='nav-link' to='/resume'>Resume</Link>
                         <Link className='nav-link' to='/contact'>Contact</Link>
-                        <Link className='nav-link' to='/cards'>Cards</Link>
+                        {/* <Link className='nav-link' to='/cards'>Cards</Link> */}
                         <Link className='nav-link' to='/links'>Links</Link>
                     
                     </Nav>
