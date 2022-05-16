@@ -31,7 +31,7 @@ function Links () {
                     </div>
                     <div class="col">
                         <div class="links__link p-3 border bg-light">
-                            <a href="https://master.d2rttn7n23ytmr.amplifyapp.com/">Lyman Ave Cul-De-Sac</a>
+                            <a href="https://lymanculdesac.com">Lyman Ave Cul-De-Sac</a>
                         </div>
                         <div class="links__link p-3 border bg-light">
                             <a href="https://master.d1ln2e7oqqzs4b.amplifyapp.com/">Networking Project</a>
