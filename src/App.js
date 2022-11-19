@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container'
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-router-dom';
 import FooterJsm from './components/FooterJsm';
 import Particles from 'react-particles-js';
+
 import NavbarD from './components/Navbar';
 import About from './pages/About';
 import Home from './pages/Home';

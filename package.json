@@ -4,12 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@sendgrid/inbound-mail-parser": "^7.6.0",
+    "@sendgrid/inbound-mail-parser": "^6.3.0",
     "@sendgrid/mail": "^7.6.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.24.0",
+    "bootstrap": "^5.2.2",
     "moment": "^2.29.1",
     "momentjs": "^2.0.0",
     "react": "^17.0.2",
@@ -18,7 +19,10 @@
     "react-icons": "^4.3.1",
     "react-open-weather": "^1.1.6",
     "react-open-weather-widget": "^1.1.0",
-    "react-scripts": "4.0.3",
+    "react-particles-js": "^3.6.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "react-typed": "^1.2.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -44,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
